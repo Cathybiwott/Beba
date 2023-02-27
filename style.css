@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+#image{
+    float: left;
+    height: 650px;
+    width: 700px;
+}
+#form{
+    text-align: center;
+}
+body{
+    background-image: url(sunshine/sunshine.jpg);
+}

@@ -5,17 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/index.css">
     <style>
-        body{
-            background-color: rgb(255, 0, 200);
+        #checkbox{
+            color: black;
         }
+        /* body{
+            background-color: bisque;
+        }
+        #image{
+            float: left;
+            height: 650px;
+            width: 700px;
+        }
+        #form{
+            text-align: center;
+        }
+        body{
+            background-image: url(sunshine/sunshine.jpg);
+        } */
     </style>
 </head>
 <body>
-    <h2>sign up to Beba App</h2>
-    <form>
-        <label>Don't have an Account?</label>
-        <button><a href="login.html">sign up</a></button>
+    <img src="transport.jpg" alt="image of a car" id="image">
+    <form id="form">
+        <label>English</label>
+        <select>
+            <option>U.S.A</option>
+            <option>British</option>
+        </select>
+        <select>
+            <option>Driver</option>
+            <option>Customer</option>
+        </select>
+        <h1>Welcome to Beba App</h1>
+        <h2>sign up to Beba App</h2>
+        <label>Have an Account?</label>
+        <button><a href="login.html">login</a></button>
     </label>
     <br>
     <br>
@@ -23,21 +49,20 @@
     <br>
     <input type="text">
     <br>
+    <br>
     <label>Last name</label>
     <br>
-    <input style="text">
+    <input type="text">
+    <br>
     <br>
     <label>Email</label>
     <br>
-    <input style="email" placeholder="email i.e name@gmail.com">
+    <input type="email"placeholder="email i.e name@gmail.com">
+    <br>
     <br>
     <label>password</label>
     <br>
-    <input style="password">
-    <br>
-    <label>username</label>
-    <br>
-    <input style="username">
+    <input type="password">
     <br>
     <br>
     <label>
@@ -48,6 +73,17 @@
     <label>
         <button>Sign up with Google</button>
     </label>
+    <br>
+    <br>
+    <label>Vehicle Sacco</label>
+    <select>
+        <option>North Rift</option>
+        <option>Eldoret CrossRoad</option>
+        <option>Great Rift</option>
+        <option>Royal Rift</option>
+        <option>Ravine-Eld</option>
+        <option>Kangaroo Shuttle</option>
+    </select>
     </form>
 </body>
 </html>
